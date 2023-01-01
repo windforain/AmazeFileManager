@@ -57,12 +57,12 @@ jobs:
       - name: Get artifacts link
         run: |
           
-          sudo apt install jq
+          # sudo apt install jq
           
-          curl --output actions.json https://api.github.com/repos/TeamAmaze/AmazeFileManager/actions/workflows/android-debug-artifact-ondemand.yml/runs?per_page=1&event=pullrequest&status=success
+          curl --output actions.json https://api.github.com/repos/VishnuSanal/AmazeFileManager/actions/workflows/android-debug-artifact-ondemand.yml/runs?per_page=1&event=pullrequest&status=success &&
 
           # we won't trigger this workflow often - so, its safe to assume that the first (only) entry will be the one we need
-          curl --output artifacts.json $(cat actions.json | jq '.workflow_runs | .[0] | .artifacts_url' | sed 's/"//g')
+          curl --output artifacts.json $(cat actions.json | jq '.workflow_runs | .[0] | .artifacts_url' | sed 's/"//g') &&
 
           cat artifacts.json | jq ' .artifacts | .[0] | .archive_download_url' > resultlinks.txt
             
@@ -78,4 +78,3 @@ jobs:
         with:
           issue-number: ${{ github.event.issue.number }}
           body-file: 'comment.md'
-            
