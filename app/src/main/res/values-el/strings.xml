@@ -142,7 +142,7 @@
     <string name="permission">Άδειες</string>
     <string name="hide">Απόκρυψη</string>
     <string name="exit">Έξοδος</string>
-    <string name="doforall">Εκτέλεση για όλα τα αντικείμενα</string>
+    <string name="doforall">Εκτέλεση για όλα τα στοιχεία</string>
     <string name="gridcolumnno">Αριθμός στηλών στην εμφάνιση σε πλέγμα</string>
     <string name="set_random">Οι αλλαγές θα εφαρμοστούν μετά την επανεκκίνηση της εφαρμογής</string>
     <string name="authors">Δημιουργοί</string>
