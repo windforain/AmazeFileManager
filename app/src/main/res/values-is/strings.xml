@@ -96,6 +96,8 @@
     <string name="select_all">Velja allt</string>
     <string name="delete">Eyða</string>
     <string name="set_as_home">Stilla sem upphafsstöðu</string>
+    <string name="operation_not_supported">Aðgerð ekki studd</string>
+
     <!-- New -->
     <!-- Array -->
 
@@ -149,7 +151,6 @@
     <string name="thumb_summary">Birta smámyndir forrita og mynda</string>
     <string name="thumb">Birta smámyndir</string>
     <string name="hidden">Sýna faldar skrár og möppur</string>
-    <string name="lastModifiedSummary">Sýna dagsetningu og tíma þegar skránni var síðast breytt</string>
     <string name="lastModifiedPref">Sýna síðustu breytingadagsetningu og tíma</string>
     <string name="size_pref_summary">Sýna stærð á skrám og fjölda atriða í möppum</string>
     <string name="size_pref">Sýna stærð</string>
@@ -238,6 +239,7 @@
     <string name="needs_access_summary">Veldu rótarmöppu fyrir \t</string>
     <string name="needs_access_summary1">\ttil að veita skrifaðgang fyrir vinnslu</string>
     <string name="smb_connection">SMB-tenging</string>
+    <string name="smb_server">IP-vistfang þjóns</string>
     <string name="server_address">IP-vistfang þjóns</string>
     <string name="username">Notandanafn</string>
     <string name="password">Lykilorð</string>
@@ -293,6 +295,7 @@
     <string name="ftp_status_not_running">Ekki í gangi</string>
     <string name="ftp_no_wifi">Gakktu úr skugga um að þú sért tengdur við þráðlaust Wi-Fi-net</string>
     <string name="domain">Lén</string>
+    <string name="smb_share">Deila slóð</string>
     <string name="invalid">Ógilt %s</string>
     <string name="ftp_notif_starting">FTP-þjónn er að ræsast</string>
     <string name="ftp_notif_starting_title">FTP-þjónn</string>
@@ -325,9 +328,9 @@
                         <b>Virkjaðu skráadeilingu á Windows</b>\n
                     </li>
                     <p style='margin-left: 40px'>
-                        Opnaðu stjórnskjáinn (Control Panel), smelltu á \'Choose homegroup and sharing
-                        options\' undir \'Network and Internet\' og smelltu síðan á \'Change advanced
-                        sharing settings\'. Virkjaðu deilimöguleikana fyrir skrár og prentun.\n\n
+                        Opnaðu stjórnskjáinn (Control Panel), smelltu á 'Choose homegroup and sharing
+                        options' undir 'Network and Internet' og smelltu síðan á 'Change advanced
+                        sharing settings'. Virkjaðu deilimöguleikana fyrir skrár og prentun.\n\n
                     </p>
 
                     <li>
@@ -356,9 +359,9 @@
                         <b>Finndu IP-vistfangið</b>\n
                     </li>
                     <p style='margin-left: 40px'>
-                        Opnaðu Command Prompt skipanalínuforritið. Skrifaðu \'ipconfig\' og ýttu á Enter. Leitaðu
-                        að \'Default Gateway\' netkortsins fyrir IP-vistfang beinisins (router). Leitaðu að 
-                        \\\"IPv4 Address\\\" undir hlutanum sem tilheyrir netkortinu til að sjá IP-vistfang 
+                        Opnaðu Command Prompt skipanalínuforritið. Skrifaðu 'ipconfig' og ýttu á Enter. Leitaðu
+                        að 'Default Gateway' netkortsins fyrir IP-vistfang beinisins (router). Leitaðu að 
+                        \\"IPv4 Address\\" undir hlutanum sem tilheyrir netkortinu til að sjá IP-vistfang 
                         tölvunnar.\n\n
                     </p>
 
@@ -436,13 +439,14 @@
     <string name="smb_launch_error">Þú þarft að afrita þetta yfir í geymslurými til að opna það</string>
     <string name="error_file_not_found">Villa: Skrá finnst ekki</string>
     <string name="error_io">I/O villa</string>
+    <string name="error_file_too_large">Villa: Skrá er of stór</string>
     <string name="medium_text">Texti miðils</string>
     <string name="permission_read">Lesa</string>
     <string name="permission_write">Skrifa</string>
     <string name="permission_execute">Keyra</string>
     <string name="permission_owner">Eigandi</string>
     <string name="permission_group">Hópur</string>
-    <string name="permission_other">Aðrir</string>
+    <string name="permission_other">Annað</string>
     <string name="clipboard_path_copy">Slóð afrituð á klippispjald</string>
     <string name="service_timer">Tími liðinn</string>
     <string name="please_wait">Bíddu aðeins</string>
@@ -450,6 +454,7 @@
     <string name="cloud_connection">Skýjatenging</string>
     <string name="cloud_connection_new">Ný tenging við tölvuský</string>
     <string name="cloud_dropbox">Dropbox</string>
+    <string name="cloud_drive">Google Drive&#8482;</string>
     <string name="cloud_onedrive">OneDrive</string>
     <string name="cloud_box">Box</string>
     <string name="cloud_get">Ná í Cloud-plugin skýjaviðbót</string>
@@ -648,10 +653,36 @@
     <string name="ftp_server_open_settings">Opna stillingar</string>
     <string name="move">Færa</string>
     <string name="error_report_open_issue_button_text">Tilkynna á GitHub</string>
+    <string name="error_snackbar_message">Því miður, eitthvað fór úrskeiðis.</string>
+    <string name="error_snackbar_action">Skýrsla</string>
+    <string name="what_device_headline">Upplýsingar:</string>
+    <string name="what_happened_headline">Hvað gerðist:</string>
+    <string name="your_comment">Athugasemdin þín (á ensku):</string>
     <string name="error_details_headline">Nánar:</string>
+    <string name="error_report_title">Villuskýrsla</string>
+    <string name="crash_report_copied">Villuskýrsla afrituð á klippispjald</string>
+    <string name="cannot_delete_file">Get ekki eytt skrá</string>
+    <string name="cannot_delete_file_with_reason">Get ekki eytt skrá - %s</string>
+    <string name="cannot_rename_file">Get ekki endurnefnt skrána %s - %s</string>
+    <string name="cannot_read_directory">Get ekki lesið möppuna %s - %s</string>
     <string name="just_once">Bara einu sinni</string>
     <string name="always">Alltaf</string>
+    <string name="choose_different_app">Veldu annað forrit</string>
+    <string name="clear_open_file">Hreinsa skyndiminni</string>
+    <string name="error_permission_denied">Heimild hafnað</string>
+    <string name="error_archive_password_incorrect">Rangt lykilorð á safnskrá.</string>
+    <string name="drag_to_move_copy">Snertu og dragðu til að færa eða afrita skrár</string>
     <string name="drag_to_select">Snertu og dragðu til að velja skrár</string>
     <string name="disable">Gera óvirkt</string>
+    <string name="choose_operation">Veldu aðgerð sem á að framkvæma</string>
+    <string name="remember">Muna næst</string>
+    <string name="error_empty_archive">\"%s\" er tóm safnskrá.</string>
+    <string name="signin_with_google_title">Auðkenndu til að nota Google Drive™</string>
+    <string name="show_system_apps">Birta kerfisforrit</string>
+    <string name="system_apps">Kerfisforrit</string>
+    <string name="select_inverse">Velja öfugt</string>
+    <string name="select_by_type">Velja eftir tegund</string>
+    <string name="select_by_date">Velja eftir dagsetningu</string>
+    <string name="select_similar">Velja svipað</string>
     </resources>
 
