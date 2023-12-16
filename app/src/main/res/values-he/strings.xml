@@ -81,6 +81,7 @@
     <string name="question_set_path_as_home">להגדיר נתיב זה כנתיב הבית ללשונית זו?</string>
     <string name="directorysort">מצב מיון תיקייה</string>
     <string name="sort_by">מיון לפי</string>
+    <string name="sort_by_colon">סידור לפי:</string>
     <string name="sort_only_this">רק תיקייה זו</string>
     <string name="theme">ערכת עיצוב</string>
     <string name="random">ערכת עיצוב אקראית</string>
