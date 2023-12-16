@@ -149,7 +149,6 @@
     <string name="thumb_summary">Visa miniatyrer av appar och bilder</string>
     <string name="thumb">Visa miniatyrer</string>
     <string name="hidden">Visa dolda filer och mappar</string>
-    <string name="lastModifiedSummary">Visa datum och tid när filen senast modifierades</string>
     <string name="lastModifiedPref">Visa senast ändrade</string>
     <string name="size_pref_summary">Visa filstorlek och antal objekt i kataloger</string>
     <string name="size_pref">Visa storlekar</string>
@@ -211,7 +210,7 @@
     <string name="text">Text</string>
     <string name="audio">Audio</string>
     <string name="video">Video</string>
-    <string name="other">Andra</string>
+    <string name="other">Övrigt</string>
     <string name="image">Bild</string>
     <string name="contributors">Bidragsgivare</string>
     <string name="save_paths">Kom ihåg sökvägar</string>
@@ -238,6 +237,7 @@
     <string name="needs_access_summary">Välj rot-mappen för \t</string>
     <string name="needs_access_summary1">\\tför att tillåta skrivbehörighet för att fungera</string>
     <string name="smb_connection">SMB-anslutning</string>
+    <string name="smb_server">Serverns IP-adress</string>
     <string name="server_address">Serverns IP-adress</string>
     <string name="username">Användarnamn</string>
     <string name="password">Lösenord</string>
@@ -324,8 +324,8 @@ kommer annars att söka efter förekomster.</string>
                     </li>
                     <p style='margin-left: 40px'>
                         Öppna kontrollpanelen, klicka på Välj Hem Grupp och Delningsalternativ under Nätverk
-                        och Internet, och klicka på \"Ändra Avancerade Delningsalternativ,\" Slå på funktionen \"Fil- och
-                        Skrivardelning\".\n\n
+                        och Internet, och klicka på "Ändra Avancerade Delningsalternativ," Slå på funktionen "Fil- och
+                        Skrivardelning".\n\n
                     </p>
 
                     <li>
@@ -354,9 +354,9 @@ kommer annars att söka efter förekomster.</string>
                         <b>Hitta IP-adress</b>\n
                     </li>
                     <p style='margin-left: 40px'>
-                        Öppna kommandotolken. Skriv \'ipconfig\' och tryck Enter. Leta efter Default Gateway
+                        Öppna kommandotolken. Skriv 'ipconfig' och tryck Enter. Leta efter Default Gateway
                         under din nätverks-adapter för din routers IP-adress. Leta efter
-                        \\\"IPv4 Address\\\" i samma stycke för att hitta din dators IP-adress.\n\n
+                        \\"IPv4 Address\\" i samma stycke för att hitta din dators IP-adress.\n\n
                     </p>
 
                     <b>Ange detaljerna i dialogrutan för SMB</b>\n
@@ -628,5 +628,8 @@ Var god kontakta din systemadministratör eller skapa upp en ny anslutning för 
     <string name="archive_unsupported_or_corrupt">Kan inte öppna arkivet \"%s\". Antingen kan vi inte öppna det eller så är det skadat.</string>
     <string name="close">Stäng</string>
     <string name="hide_media">Dölj från media-browsers</string>
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Intern Lagring</string>
     </resources>
 
