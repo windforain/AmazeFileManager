@@ -119,6 +119,7 @@
     <string name="sort_name">שם</string>
     <string name="lastModified">שינוי אחרון</string>
     <string name="sort_size">גודל</string>
+    <string name="sort_relevance">קשר:</string>
     <!--ListMode-->
     <!--Folder-->
     <string name="pick_a_file">בחירת קובץ</string>
