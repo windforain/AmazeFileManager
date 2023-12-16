@@ -49,10 +49,10 @@
     <string name="save">Lưu</string>
     <string name="bookmarks_added">Bookmark đã được thêm vào</string>
     <string name="fileexist">Tệp có cùng tên đã tồn tại </string>
-    <string name="name">Tên: </string>
+    <string name="name">Tên</string>
     <string name="date">Ngày: </string>
     <string name="location">Vị trí: </string>
-    <string name="size_capitalized">Kích thước</string>
+    <string name="size_capitalized">Kích thuớc</string>
     <string name="size">kích thước thư mục</string>
     <string name="enterzipname">Nhập tên Zip</string>
     <string name="no_app_found">Không tìm thấy ứng dụng để mở tệp</string>
@@ -151,7 +151,6 @@
     <string name="thumb_summary">Hiện ảnh thu nhỏ ứng dụng và hình ảnh</string>
     <string name="thumb">Hiện ảnh thu nhỏ</string>
     <string name="hidden">Hiển thi tệp và thư mục ẩn</string>
-    <string name="lastModifiedSummary">Hiển thị ngày và thời gian khi tệp tin được sửa đổi lần cuối</string>
     <string name="lastModifiedPref">Hiện chỉnh sửa cuối</string>
     <string name="size_pref_summary">Hiện kích thước của tệp tin và số mục trong thư mục</string>
     <string name="size_pref">Hiện kích thước</string>
@@ -232,7 +231,7 @@
     <string name="icon_color_title">Màu biểu tượng</string>
     <string name="icon_color_summary">Đặt màu cho biểu tượng</string>
     <string name="choose_color">Chọn màu</string>
-    <string name="files">Tệp</string>
+    <string name="files">Tập tin</string>
     <string name="textreader">Trình đọc văn bản thô</string>
     <string name="databasereader">Trình đọc dữ liệu</string>
     <string name="show_dividers">Hiện bộ chia</string>
@@ -240,6 +239,7 @@
     <string name="needs_access_summary">Vui lòng chọn thư mục gốc của \t</string>
     <string name="needs_access_summary1">\tđể ghi truy cập cho việc thao tác </string>
     <string name="smb_connection">Kết nối SMB</string>
+    <string name="smb_server">Địa chỉ IP máy chủ</string>
     <string name="server_address">Địa chỉ IP máy chủ</string>
     <string name="username">Tên người dùng</string>
     <string name="password">Mật khẩu</string>
@@ -329,8 +329,8 @@
                     </li>
                     <p style='margin-left: 40px'>
                         Mở Control Panel, nhấp vào Choose HomeGroup and Sharing options dưới Network
-                        and Internet, và click \"Change Advanced Sharing Settings,\" bật tính năng \"File and
-                        Printer Sharing\".\n\n
+                        and Internet, và click "Change Advanced Sharing Settings," bật tính năng "File and
+                        Printer Sharing".\n\n
                     </p>
 
                     <li>
@@ -359,9 +359,9 @@
                         <b>Tìm địa chỉ IP</b>\n
                     </li>
                     <p style='margin-left: 40px'>
-                        Mở Command Prompt. Nhập \'ipconfig\' và nhấn Enter. Tìm kiếm Cổng mặc định
+                        Mở Command Prompt. Nhập 'ipconfig' và nhấn Enter. Tìm kiếm Cổng mặc định
                         dưới bộ điều hợp mạng của bạn cho địa chỉ IP của bộ định tuyến của bạn. Tìm
-                        \\\"Địa chỉ IPv4\\\" trong cùng một phần bộ điều hợp để tìm địa chỉ IP máy tính
+                        \\"Địa chỉ IPv4\\" trong cùng một phần bộ điều hợp để tìm địa chỉ IP máy tính
                         của bạn.\n\n
                     </p>
 
@@ -707,7 +707,6 @@ Bạn chỉ cần làm điều này một lần cho đến lần tiếp theo b�
     <string name="android_data_prompt_saf_access_title">Cấp quyền truy cập SAF</string>
     <string name="ftp_preference_saf_filesystem_title">Sử dụng filesystem cũ</string>
     <string name="ftp_preference_saf_filesystem">Bật tính năng này để được hỗ trợ sử dụng bộ nhớ ngoài của thiết bị trên các phiên bản Android mới hơn</string>
-    <string name="ftp_server_fallback_path_reset_prompt">Đường dẫn chia sẻ của máy chủ FTP đã được đặt lại thành bộ nhớ trong khi bạn đang chuyển về triển khai filesystem cũ. Vui lòng chọn một đường dẫn mới bằng cách sử dụng menu ở trên cùng bên phải nếu cần.</string>
     <string name="compressed_explorer_fragment_error_open_uri">Lỗi khi mở URI \"%s\" để đọc.</string>
     <string name="error_empty_archive">\"%s\" là một tệp lưu trữ trống.</string>
     <string name="security_error">Tập tin không thể được mở bằng ứng dụng này</string>
@@ -715,14 +714,10 @@ Bạn chỉ cần làm điều này một lần cho đến lần tiếp theo b�
     <string name="signin_with_google_title">Xác thực để sử dụng Google Drive™</string>
     <string name="show_system_apps">Hiện ứng dụng hệ thống</string>
     <string name="system_apps">Ứng dụng hệ thống</string>
-    <string name="third_party_apps">Ứng dụng bên thứ ba</string>
     <string name="select_inverse">Chọn ngược lại</string>
     <string name="select_by_type">Chọn theo loại</string>
     <string name="select_by_date">Chọn theo ngày</string>
     <string name="select_similar">Chọn tương tự</string>
     <string name="error_fetching_google_play_product_list">Lỗi khi lấy danh sách sản phẩm từ Google Play.</string>
-    <string name="grant_all_files_permission"><html><body>Amaze cần quyền truy cập tất cả tệp để tiếp tục.
-        \nỞ màn hình tiếp theo, vui lòng chọn <b>Amaze</b> và chọn tuỳ chọn <b>Cho phép quản lý tất cả tệp</b>.
-            \n\n<font color='#ff6347'><i>Việc huỷ hộp thoại này sẽ thoát ứng dụng.</i></font></body></html></string>
-</resources>
+    </resources>
 
