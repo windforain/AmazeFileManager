@@ -760,6 +760,8 @@
     <string name="pref_export">ייצוא</string>
     <string name="pref_export_summary">הגדרות ייצוא</string>
     <string name="pref_import">ייבוא</string>
+    <string name="pref_import_summary">ייבוא הגדרות</string>
+
     <string name="quick_desc">קבצים אליהם ניגשת לאחרונה דרך Amaze</string>
     <string name="recent_desc">קבצים שנוצרו או נערכו לאחרונה</string>
     <string name="error_cannot_find_way_open">לא נמצאה דרך לפתוח את הקובץ</string>
