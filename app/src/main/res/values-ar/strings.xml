@@ -36,6 +36,7 @@
     <string name="uninstall">الغاء تركيب </string>
     <string name="play">تشغيل المتجر </string>
     <string name="properties">خصائص </string>
+    <string name="copyingapks">نسخ %d ملفات APK إلى %s</string>
     <string name="delbook">حذف علامة توقف </string>
     <string name="add_to_bookmarks">اضافة الى علامات التوقف </string>
     <string name="enterpath">ادخال المسار </string>
@@ -151,7 +152,7 @@
     <string name="thumb_summary">عرض الصور المصغرة لتطبيقات وصور التطبيقات </string>
     <string name="thumb">عرض الصور المصغرة </string>
     <string name="hidden">Show Hidden Files and Folders</string>
-    <string name="lastModifiedSummary">عرض التاريخ والوقت الذي تم فيه تعديل الملف آخر مرة </string>
+    <string name="lastModifiedSummary">إظهار تاريخ ووقت التعديل الأخير</string>
     <string name="lastModifiedPref">عرض تاريخ ووقت آخر تعديل </string>
     <string name="size_pref_summary">عرض حجم الملفات وعدد البنود في الحافظات </string>
     <string name="size_pref">عرض الأحجام </string>
@@ -240,6 +241,7 @@
     <string name="needs_access_summary">برجاء اختيار الدليل الرئيسي الى \ t </string>
     <string name="needs_access_summary1">\to منح امكانية الكتابة للعمل   </string>
     <string name="smb_connection">وصلة SMB </string>
+    <string name="smb_server">عنوان IP لوحدة الخدمة </string>
     <string name="server_address">عنوان IP لوحدة الخدمة </string>
     <string name="username">اسم المستخدم </string>
     <string name="password">كلمة السرية </string>
@@ -588,12 +590,12 @@
     <string name="password_no_match">كلمة السرية doesn \'\t مطابقة </string>
     <string name="deselect_all">الغاء تحديد كل </string>
     <string name="filename">اسم الملف </string>
-    <string name="compress_file_suggest_zip_extension">يفضل أن يقوم \\"باستخدام \"\. zip \"\ كامتداد للملف. </string>
+    <string name="compress_file_suggest_zip_extension">يفضل أن يقوم \"باستخدام "\. zip "\ كامتداد للملف. </string>
     <string name="about_amaze">مدير ملف تصميم المواد لأندرويد </string>
     <string name="license">الترخيص </string>
     <string name="libraries">المكتبات </string>
     <string name="password_repeat">تكرار كلمة السرية </string>
-    <string name="create_file_suggest_txt_extension">يفضل أن يقوم \\"باستخدام \"\. txt \"\ على أنه لاحقة الملف. </string>
+    <string name="create_file_suggest_txt_extension">يفضل أن يقوم \"باستخدام "\. txt "\ على أنه لاحقة الملف. </string>
     <string name="ssh_select_pem">تحديد المفتاح الخاص للتوثيق </string>
     <string name="ssh_key_invalid_passphrase">عبارة passphrase غير صحيحة. </string>
     <string name="encryption_fail_copy">فشل في تعديل ادخال التشفير في قاعدة البيانات </string>
@@ -603,11 +605,12 @@
     <string name="no_obtainable_info">لا توجد معلومات عن هذا الملف \ </string>
     <string name="reopen_from_source">لا يمكن ، رجاء اعادة الفتح من التطبيق الأخير </string>
     <string name="no_file_error">شيء خاطئ ، هناك \ لا شيء لفتح </string>
+    <string name="file_too_long">الملف طويل جدًا ولا يمكن تحريره ، ولكن يمكنك قراءة الأول %d characters</string>
     <string name="file_read_only">الملف الذي تم فتحه هو للقراءة فقط. </string>
     <string name="got_it">! حصلت عليه </string>
     <string name="encrypt_file_save_as">حفظ الملف المشفر باسم ... </string>
     <string name="encrypt_folder_save_as">حفظ الحافظة التي تم تشفيرها باسم ... </string>
-    <string name="encrypt_file_must_end_with_aze">يجب أن تقوم الملفات المشفرة باستخدام \"\. seزى \\" على أنه لاحقة الملف. </string>
+    <string name="encrypt_file_must_end_with_aze">يجب أن تقوم الملفات المشفرة باستخدام "\. seزى \" على أنه لاحقة الملف. </string>
     <string name="cannot_overwrite">لا يمكن احلال الملف. </string>
     <string name="saved_single_file">تم حفظ الملف على أنه \'\ %s \'\. </string>
     <string name="saved_multi_files">تم حفظ %d ملف. </string>
@@ -622,7 +625,7 @@
     <string name="enable_marquee_filename">اتاحة تأثير marquee لأسماء الملفات </string>
     <string name="archive_password_prompt">برجاء ادخال كلمة سرية التخزين : </string>
     <string name="cannot_extract_archive">لا يمكن استخراج الأرشيف \"\ %s \"\ : %s </string>
-    <string name="archive_unsupported_or_corrupt">لا يمكن فتح التخزين \\" %s \\".  اما أنه لا يمكن فتح ملف التخزين ، أو أنه قد حدث تلف في التخزين. </string>
+    <string name="archive_unsupported_or_corrupt">لا يمكن فتح التخزين \" %s \".  اما أنه لا يمكن فتح ملف التخزين ، أو أنه قد حدث تلف في التخزين. </string>
     <string name="close">اغلاق </string>
     <string name="bookmark_exists">علامة التوقف موجودة </string>
     <string name="hide_media">اخفاء من برامج استعراض وسط التخزين </string>
@@ -678,7 +681,7 @@
     <string name="ftp_prompt_restart_server">سيكون من الضروري اعادة بدء وحدة خدمة FTP لكي تصبح التغييرات فعالة. </string>
     <string name="error_permission_denied">تم رفض التصريح </string>
     <string name="error_archive_password_incorrect">كلمة سرية أرشيف غير صحيحة. </string>
-    <string name="error_archive_cannot_extract">لا يمكن استخراج مدخلات التخزين \\"%s \\" الى \"\ %s \"\. </string>
+    <string name="error_archive_cannot_extract">لا يمكن استخراج مدخلات التخزين \"%s \" الى "\ %s "\. </string>
     <string name="drag_and_drop_preference">حدد سحب ووضع تفضيلات (Expertal) </string>
     <string name="drag_to_move_copy">اللمس والسحب لنقل أو نسخ ملفات </string>
     <string name="drag_to_select">قم باللمس والسحب لاختيار الملفات </string>
@@ -693,7 +696,6 @@
     <string name="android_data_prompt_saf_access_title">منح وصول SAF</string>
     <string name="ftp_preference_saf_filesystem_title">استخدم نظام الملفات القديم</string>
     <string name="ftp_preference_saf_filesystem">قم بتمكين هذا لدعم استخدام وحدة التخزين الخارجية للجهاز على إصدارات Android الأحدث</string>
-    <string name="ftp_server_fallback_path_reset_prompt">تم إعادة تعيين المسار المشترك لخادم FTP إلى وحدة التخزين الداخلية أثناء العودة إلى تطبيق نظام الملفات القديم. الرجاء تحديد مسار جديد باستخدام القائمة الموجودة في الجزء العلوي الأيمن حسب الضرورة.</string>
     <string name="compressed_explorer_fragment_error_open_uri">خطأ في فتح URI \"%s\" للقراءة.</string>
     <string name="error_empty_archive">\"%s\" هو أرشيف فارغ.</string>
     <string name="security_error">تعذر فتح الملف باستخدام هذا التطبيق</string>
@@ -705,6 +707,8 @@
     <string name="select_by_type">Select by type</string>
     <string name="select_by_date">Select by date</string>
     <string name="select_similar">Select similar</string>
-    <string name="user_apps">Third Party Apps</string>
-</resources>
+    <string name="grant_all_files_permission"><html><body>منذ Android 11 ، تطلب Google من مديري الملفات أن يطلبوا إذن المستخدم لإدارة كل الملفات على الجهاز. التفاصيل <a href=\"https://developer.android.com/training/data-storage/manage-all-files\" target=\"_blank\">هنا</a>.
+        \n\nAmaze مدير الملفات يحتاج هذا الإذن أيضا. بعد الضغط على \"منح\" هنا ، يرجى تحديد السماح بالوصول لإدارة جميع الملفات</b> على الشاشة التالية.
+ \n\n<font color=\'#ff6347\'><i>سيؤدي إلغاء مربع الحوار هذا إلى الخروج من التطبيق</i></font></body></html></string>
+    </resources>
 
