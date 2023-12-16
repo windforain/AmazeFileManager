@@ -49,7 +49,7 @@
     <string name="save">Зберегти</string>
     <string name="bookmarks_added">Додані в вибране</string>
     <string name="fileexist">Файл з такою назваю вже існує</string>
-    <string name="name">Ім\'я: </string>
+    <string name="name">Ім\'я</string>
     <string name="date">Дата: </string>
     <string name="location">Розташований в: </string>
     <string name="size_capitalized">Розмір</string>
@@ -151,7 +151,6 @@
     <string name="thumb_summary">Показувати мініатюри додатків та образів</string>
     <string name="thumb">Показувати мініатюри</string>
     <string name="hidden">Показувати приховані файли і теки</string>
-    <string name="lastModifiedSummary">Показати дату і час, коли файл було змінено в останній раз</string>
     <string name="lastModifiedPref">Показати останні зміни</string>
     <string name="size_pref_summary">Показати розміри файлів і кількість елементів в теках</string>
     <string name="size_pref">Показати розміри</string>
@@ -214,7 +213,7 @@
     <string name="text">Текст</string>
     <string name="audio">Аудіо</string>
     <string name="video">Відео</string>
-    <string name="other">Різне</string>
+    <string name="other">Інший</string>
     <string name="image">Зображення</string>
     <string name="contributors">Розробники</string>
     <string name="save_paths">Запам\'ятати розташування</string>
@@ -241,6 +240,7 @@
     <string name="needs_access_summary">Будь ласка виберіть кореневий каталог \t</string>
     <string name="needs_access_summary1">\tнадати доступ на запис для роботи </string>
     <string name="smb_connection">Samba з\'єднання</string>
+    <string name="smb_server">IP-адреса сервера</string>
     <string name="server_address">IP-адреса сервера</string>
     <string name="username">Користувач</string>
     <string name="password">Пароль</string>
@@ -622,6 +622,9 @@
     <string name="ssh_connect_failed_host_key_changed_prompt">МОЖЛИВО, ЩО У ВАС НЕПРИЄМНОСТІ!\n\nХтось може підслуховувати вас прямо зараз (атака \"людина посередині\")! Також можливо, що ключ хосту щойно змінено. Відбиток пальця для відкритого ключа, надісланого віддаленим хостом, не відповідає такому, що зберігається у Amaze.\n\nВи можете продовжити оновлення відбитка хоста або скасувати оновлення налаштувань з’єднання SSH.</string>
     <string name="failed_install_apk">Помилка інсталяції</string>
 
+    <!-- from https://android.googlesource.com/platform/frameworks/base/+/master/core/res/res/values/strings.xml -->
+    <!-- Storage description for internal shared storage. [CHAR LIMIT=NONE] -->
+    <string name="storage_internal">Внутрішня пам\'ять</string>
     <!-- Storage description for a generic SD card. [CHAR LIMIT=NONE] -->
     <string name="storage_sd_card">SD картка</string>
     <string name="ftp_server_open_settings">Відкрити налаштування</string>
