@@ -123,6 +123,7 @@
     <!--ListMode-->
     <!--Folder-->
     <string name="pick_a_file">בחירת קובץ</string>
+    <string name="pick_files">יש לבחור קובץ או יותר</string>
     <string name="process_viewer">מציג התהליכים</string>
     <string name="in_safe">אין מספיק שטח פנוי</string>
     <string name="no_file_overwrite">לא הוחלף אף קובץ</string>
