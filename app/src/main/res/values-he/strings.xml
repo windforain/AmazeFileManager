@@ -81,6 +81,7 @@
     <string name="question_set_path_as_home">להגדיר נתיב זה כנתיב הבית ללשונית זו?</string>
     <string name="directorysort">מצב מיון תיקייה</string>
     <string name="sort_by">מיון לפי</string>
+    <string name="sort_by_colon">סידור לפי:</string>
     <string name="sort_only_this">רק תיקייה זו</string>
     <string name="theme">ערכת עיצוב</string>
     <string name="random">ערכת עיצוב אקראית</string>
@@ -118,9 +119,11 @@
     <string name="sort_name">שם</string>
     <string name="lastModified">שינוי אחרון</string>
     <string name="sort_size">גודל</string>
+    <string name="sort_relevance">קשר:</string>
     <!--ListMode-->
     <!--Folder-->
     <string name="pick_a_file">בחירת קובץ</string>
+    <string name="pick_files">יש לבחור קובץ או יותר</string>
     <string name="process_viewer">מציג התהליכים</string>
     <string name="in_safe">אין מספיק שטח פנוי</string>
     <string name="no_file_overwrite">לא הוחלף אף קובץ</string>
@@ -181,6 +184,7 @@
     <string name="xda_summary">קבלת תשובות לשאלות ועזרה בפתרון בעיות</string>
     <string name="circular_images">להשתמש בסמלים עגולים עבור תמונות וסרטונים</string>
     <string name="circular_icons">להשתמש בסמלים עגולים</string>
+    <string name="follow_battery_saver_title">לאפשר חיסכון בסוללה</string>
     <string name="back_title">ניווט אחורה</string>
     <string name="back_summary">מפעיל קיצור לחזרה אחורה בראש כל תיקייה</string>
     <string name="details">פרטים</string>
@@ -751,6 +755,13 @@
     <string name="ui_summary">שליטה במידע שיוצג, התאמת סרגל הצד ושינוי העדפות במנשק המשתמש</string>
     <string name="behavior_summary">שינוי התנהגויות כגון חיפוש מתקדם והאם לפתוח קבצים כמשימה חדשה</string>
     <string name="security_summary">הגדרת סיסמה והצפנה</string>
+    <string name="backup_summary">ייצוא/ייבוא הגדרות</string>
+
+    <string name="pref_export">ייצוא</string>
+    <string name="pref_export_summary">הגדרות ייצוא</string>
+    <string name="pref_import">ייבוא</string>
+    <string name="pref_import_summary">ייבוא הגדרות</string>
+
     <string name="quick_desc">קבצים אליהם ניגשת לאחרונה דרך Amaze</string>
     <string name="recent_desc">קבצים שנוצרו או נערכו לאחרונה</string>
     <string name="error_cannot_find_way_open">לא נמצאה דרך לפתוח את הקובץ</string>
